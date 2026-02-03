@@ -1,0 +1,406 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="middle-wrapper d-flex w-100 flex-column">
+
+
+    <header class="main-header shadow-sm agent-header">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="dashboard-header-left d-flex align-items-center">
+
+                    <button class="iconButton medium">
+                        <i class="fas fa-desktop"></i>
+
+                    </button>
+
+                    <nav>
+                        <ol class="breadcrumb m-0">
+
+
+                            <li class="breadcrumb-item active">
+                                <a href="javascript:">Vending Machines Management System</a>
+                            </li>
+
+
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-6">
+                <div class="right-header-components">
+
+                    @* <div class="dropdown create-button me-3">
+                    <button class="iconButton medium notification iconHover custom-fa-col" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bell"></i>
+                    </button>
+                    <ul class="dropdown-menu custom-dropdown" aria-labelledby="dropdownMenuButton1">
+                    <li>
+                    <a class="dropdown-item p-1 active" href="/Product/AddProduct">
+                    <button class="iconButton dropdown-iconBtn small active" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fal fa-desktop"></i>Create Inventory item
+                    </button>
+                    </a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item p-1" href="../users/create-user.html">
+                    <button class="iconButton dropdown-iconBtn small"><i class="fal fa-users"></i></button>
+                    Create User
+                    </a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item p-1" href="../users/create-team.html">
+                    <button class="iconButton dropdown-iconBtn small" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fal fa-users-class"></i>
+                    </button>Create Team
+                    </a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item p-1" href="../locations/create-locations.html">
+                    <button class="iconButton dropdown-iconBtn small">
+                    <i class="fal fa-map-marker-alt"></i>
+                    </button>Create Location
+                    </a>
+                    </li>
+                    <li>
+                    <a class="dropdown-item p-1" href="../locations/create-access-point.html">
+                    <button class="iconButton dropdown-iconBtn small">
+                    <i class="fal fa-badge-check"></i>
+                    </button>Create Access Point
+                    </a>
+                    </li>
+
+
+                    </ul>
+                    </div>*@
+                    <div class="dropdown custom-dropdown-list w-auto notify me-3">
+                        <a href="#" class="d-block" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="iconButton medium notification iconHover">
+                                <i class="fas fa-envelope fa-2x"></i>
+                                <span class="badge bg-danger rounded-pill">5</span>
+                            </button>
+                        </a>
+                        <ul class="dropdown-menu full_dropdown p-0 text-small user-profile-dropdown shadow" aria-labelledby="dropdownUser1">
+                            <li class="notification-header dropdown-header p-0">
+                                <ul class="notification-header w-100 p-2">
+                                    <li>
+                                        <div class="name-n-info">
+                                            <h6 class="night m-0">Notifications</h6>
+                                        </div>
+                                        <a class="pb-1 pe-2 ps-2 pt-1 rounded-pill sky" href="#">Mark all as Read</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="notification-body dropdown-body">
+                                <ul>
+                                    <li>Today</li>
+                                    <li>
+                                        <a class="dropdown-item active" href="#">
+                                            <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                <i class="fal fa-bell"></i>
+                                            </span>
+                                            <div class="ms-2 me-auto coal lh-1">
+                                                <div class="night">Your average response time is low.</div>
+                                                <small>11:30 AM</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                <i class="fal fa-bell"></i>
+                                            </span>
+                                            <div class="ms-2 me-auto coal lh-1">
+                                                <div class="night">Your average response time is low.</div>
+                                                <small>11:30 AM</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>Yesterday</li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                <i class="fal fa-bell"></i>
+                                            </span>
+                                            <div class="ms-2 me-auto coal lh-1">
+                                                <div class="night">Your average response time is low.</div>
+                                                <small>11:30 AM</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                <i class="fal fa-bell"></i>
+                                            </span>
+                                            <div class="ms-2 me-auto coal lh-1">
+                                                <div class="night">Your average response time is low.</div>
+                                                <small>11:30 AM</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                <i class="fal fa-bell"></i>
+                                            </span>
+                                            <div class="ms-2 me-auto coal lh-1">
+                                                <div class="night">Your average response time is low.</div>
+                                                <small>11:30 AM</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="notification-footer dropdown-footer p-0">
+                                <ul class="card-footer w-100 border-0 p-0">
+                                    <li>
+                                        <div class="w-100">
+                                            <a href="#" class="btn text-center d-block sky notification-view-all-btn">View all</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown custom-dropdown-list w-auto">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../images/avatar-2.jpg" alt="mdo" width="40" height="40" class="rounded-circle">
+                            <span class="online-n-offline"></span>
+                            <div class="name-n-info">
+                                <span class="name">@User.Identity.Name</span>
+                                @*<small>@@Mr. X</small>*@
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu full_dropdown p-0 text-small user-profile-dropdown shadow" aria-labelledby="dropdownUser1">
+                            <li class="user-dropdown-header dropdown-header">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="link-dark text-decoration-none" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="https://github.com/mdo.png" class="profile-pic rounded-circle" alt="mdo" width="50" height="50">
+                                            <span class="online-n-offline on-off-btn"></span>
+                                            <div class="name-n-info lh-sm">
+                                                <h6 class="night m-0">@User.Identity.Name</h6>
+                                                @*<small>@@salmankhan</small>*@
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <button class="iconButton medium iconHover">
+                                    <i class="fal fa-cog"></i>
+                                </button>
+                            </li>
+
+                            <li class="card-footer dropdown-footer p-2">
+                                <ul class="w-100">
+                                    <li>
+                                        <div class="w-100">
+                                            <a href="#" class="btn radicalBg text-center d-block">Sign Out</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <div class="content-box-wrapper d-flex w-100">
+        <div class="middle-content d-flex">
+
+            <div class="page-content-wrapper dashboard console-body-wrapper" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;">
+                <div class="scroll-content" style="transform: translate3d(0px, 0px, 0px);">
+                    <div class="w-auto w-100 inbox-container chat-message-component">
+                        <div class="d-flex main-body-wrapper">
+                            <div class="agent-page-main-content">
+                                <div class="w-100 p-4">
+
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="card dashboard-card zoom-in">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <div class="iconButton medium mb-2 oceanBg">
+                                                                <i class="fas fa-cube"></i>
+                                                            </div>
+                                                            <p class="silver mb-0">Total Inventory Items</p>
+                                                        </div>
+                                                        <h2>@ViewBag.invenCount</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="card dashboard-card zoom-in">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <div class="iconButton medium mb-2 emeraldBg">
+                                                                <i class="fas fa-utensils"></i>
+                                                            </div>
+                                                            <p class="silver mb-0">Total Vending Machines</p>
+                                                        </div>
+                                                        <h2>@ViewBag.vmCount</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="card dashboard-card zoom-in">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <div class="iconButton medium mb-2 caolBg">
+                                                                <i class="fas fa-coffee vending-icon"></i>
+                                                            </div>
+                                                            <p class="silver mb-0">Total Items in Vending Machines</p>
+                                                        </div>
+                                                        <h2>@ViewBag.viCount</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @*<div class="col-lg-3 col-md-6">
+                                            <div class="card dashboard-card zoom-in">
+                                                <div class="card-body">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <div class="iconButton medium radicalBg mb-2">
+                                                                <i class="fas fa-user text-white"></i>
+                                                            </div>
+                                                            <p class="silver mb-0">Total users</p>
+                                                        </div>
+                                                        <h2>5</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>*@
+                                    </div>
+                                    @*<div class="filter-container">
+                                        <ul class="list-group list-group-horizontal border-0">
+                                            <li class="list-group-item border-0 refreshicon" id="refreshpage" aria-label="..." data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Refresh">
+                                                <i class="fal fa-redo"></i>
+                                            </li>
+                                            <li class="list-group-item border-0 after-select-fun" data-bs-toggle="modal" data-bs-target="#delete-device" aria-label="..." data-bs-placement="bottom" title="Delete" style="display: none;">
+                                                <i class="fal fa-trash"></i>
+                                            </li>
+                                            <li class="list-group-item border-0 after-select-fun" data-bs-toggle="modal" data-bs-target="#disable-device" aria-label="..." data-bs-placement="bottom" title="Disable" style="display: none;">
+                                                <i class="fal fa-ban"></i>
+                                            </li>
+                                        </ul>
+
+                                       
+                                    </div>*@
+
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @* <h4 class="text-secondary text-center mb-0">Per Day Sale</h4> *@
+                 <div style="max-width: 800px; margin: 0 auto;">
+        <canvas id="salesChart" width="600" height="400"></canvas>
+    `</div>
+                @* <h5 class="text-secondary text-center  mt-3 mb-3">Total Analysis</h5>
+                <div class="m-auto w-75">
+                    <canvas id="dashboardChart"></canvas>
+                </div>
+                <h5 class="text-secondary text-center  mt-5 mb-3">Vending Machine Analysis</h5>
+                <div class="m-auto w-75">
+                     <canvas id="vendingMachineChartAnalysis"></canvas>
+                </div>
+                <h5 class="text-secondary text-center  mt-4 mb-3">Invenotory Products by Category</h5> *@
+                <div class="m-auto w-75">
+                     <canvas id="inventoryChart"></canvas>
+                </div>
+               
+
+                <div class="scrollbar-track scrollbar-track-x" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1459px; transform: translate3d(0px, 0px, 0px);"></div></div><div class="scrollbar-track scrollbar-track-y" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 231.959px; transform: translate3d(0px, 0px, 0px);"></div></div>
+            </div>
+
+            <div class="modal fade" id="delete-device" tabindex="-1" aria-labelledby="delete-device-Label" aria-hidden="true">
+
+
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title line-head" id="delete-device-Label">Confirm</h5>
+                            <button type="button" class="btn iconHover pt-0 pb-0" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-times"></i></button>
+                        </div>
+                        <div class="modal-body p-5">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-circle iconButton me-4 errorbg">
+                                    <i class="fal fa-trash"></i>
+                                </div>
+                                <p class="line-txt darkblue">Are you sure, you want to delete the device?</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn skyBg delete_device_toast" data-bs-dismiss="modal">Yes</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="modal fade" id="disable-device" tabindex="-1" aria-labelledby="delete-device-Label" aria-hidden="true">
+
+
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title line-head" id="delete-device-Label">Confirm</h5>
+                            <button type="button" class="btn iconHover pt-0 pb-0" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-times"></i></button>
+                        </div>
+                        <div class="modal-body p-5">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-circle iconButton me-4 errorbg">
+                                    <i class="fal fa-ban"></i>
+                                </div>
+                                <p class="line-txt darkblue">Are you sure, you want to disable the device?</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn skyBg disable_device_toast" data-bs-dismiss="modal">Yes</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="position-fixed toast-bar border-0 shadow-sm rounded navyBg" style="z-index: 60">
+                <div class="toast hide border-0 p-2 h-100 navyBg" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex border-0 justify-content-between align-items-center w-100 h-100">
+                        <p class="toast-line-para ice m-0"></p>
+                        <div class="toast-btn d-flex align-items-center">
+
+                            <button type="button" class="btn m-0 ms-2" data-bs-dismiss="toast"><i class="fal fa-times"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+	  

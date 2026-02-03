@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\My Projects\pulish</_PublishTargetUrl>
+    <History>True|2024-03-10T16:08:35.2490224Z;True|2024-03-10T20:38:08.1933621+05:00;True|2024-01-30T21:02:39.4027681+05:00;True|2024-01-30T02:20:52.4708798+05:00;True|2024-01-08T01:44:35.7686426+05:00;True|2024-01-08T01:07:29.8976371+05:00;True|2023-12-18T00:22:57.7023760+05:00;True|2023-12-18T00:11:54.9830539+05:00;True|2023-12-17T22:49:44.5289286+05:00;True|2023-11-01T03:39:25.1574889+05:00;True|2023-11-01T03:27:19.9267826+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,700 @@
+
+
+  
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>enteract.access</title>
+  <meta name="description" content="Enteract Application">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+ <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+  <link rel="stylesheet" href="../styles/main-c2cb015d74.css">
+  <!-- endbuild -->
+
+  
+
+   <script>
+
+    </script>
+</head>
+
+<body class="agent-grid">
+  
+  <main>
+    <div class="main-wrapper d-flex">
+      <div id="leftBarWrapper">
+    
+    <div class="logo">
+        <a href="devices.html">
+            <p class="logoText">
+                <img src="../images/access-white-logo.svg" alt="...">
+            </p>
+            <p class="logoText small-logo">
+                <img src="../images/access-small-white.svg" alt="...">
+            </p>
+            
+        </a>
+    </div>
+    
+    <ul class="list-group agent_nav_bar" id="agent-list">
+        <a href="../engage/devices.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                    <i class="fal fa-desktop ice"></i>
+                </div>
+                <div class="itemLabel">
+                Devices
+                </div>
+            </div>
+        </a>
+        <a href="../engage/addcard.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                    <i class="fa-light fa-address-card ice"></i>
+                </div>
+                <div class="itemLabel">
+                Cards
+                </div>
+            </div>
+        </a>
+        <a href="../users-teams/users.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                    <i class="fal fa-users-class ice"></i>
+                </div>
+                <div class="itemLabel">
+                Users & Teams
+                </div>
+            </div>
+        </a>
+        <a href="../locations/location.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                   <i class="fal fa-map-marker-alt ice"></i>
+                </div>
+                <div class="itemLabel">
+                Locations
+                </div>
+            </div>
+        </a>
+        <a href="../engage/permissions.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                    <i class="fal fa-users-class ice"></i>
+                </div>
+                <div class="itemLabel">
+                Permissions
+                </div>
+            </div>
+        </a>
+        
+      
+        
+        
+        <a href="../engage/logs.html" class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                    <i class="fal fa-clipboard-check ice"></i>
+                </div>
+                <div class="itemLabel">
+                    Logs
+                </div>
+            </div>
+        </a>
+      
+        
+        
+        <div class="leftBarDivider"></div>
+        
+        <a href="#" class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                    <i class="fal fa-analytics ice"></i>
+                </div>
+                <div class="itemLabel">
+                    Settings
+                </div>
+            </div>
+        </a>
+        <a href="../console" class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 pt-0 pb-0 ps-2">
+            <div class="list-group-text d-flex align-items-center">
+                <div class="iconButton medium">
+                    <i class="fal fa-cog ice"></i>
+                </div>
+                <div class="itemLabel">
+                    Console
+                </div>
+            </div>
+        </a>
+    </ul>
+  
+</div>
+
+
+      
+    <nav id="left-sidebar-expand" class="toggled">
+  <div class="multiple-screens">
+    
+    <div class="left-nodata">
+      <div class="left-inner">
+        <img src="../images/nodata.svg">
+        <p>No Record Found</p>
+      </div>
+     
+    </div>
+  </div>
+  <a href="javascript:void;" class="panelToggle"></a>
+</nav>
+
+      <div class="middle-wrapper d-flex w-100 flex-column">
+        
+    <header class="main-header shadow-sm agent-header">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="dashboard-header-left d-flex align-items-center">
+        
+          <button class="iconButton medium">
+            <i class="fal fa-user-plus"></i>
+          </button>
+          
+          <nav>
+            <ol class="breadcrumb m-0">
+              
+                
+                  <li class="breadcrumb-item active">
+                    <a href="add-user.html">Add User</a>
+                  </li>
+                
+              
+            </ol>
+          </nav>
+        </div>
+      </div>
+      
+        <div class="col-lg-6 col-sm-6">
+  <div class="right-header-components">
+    
+    <div class="dropdown create-button me-3">
+      <button class="iconButton medium notification iconHover custom-fa-col" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fal fa-plus"></i>
+      </button>
+      <ul class="dropdown-menu custom-dropdown" aria-labelledby="dropdownMenuButton1">
+        <li>
+          <a class="dropdown-item p-1 active" href="../engage/createdevice.html">
+            <button class="iconButton dropdown-iconBtn small active" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fal fa-desktop"></i>
+            </button>Create Device
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item p-1" href="../users/create-user.html">
+            <button class="iconButton dropdown-iconBtn small"><i class="fal fa-users"></i></button>
+            Create User
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item p-1" href="../users/create-team.html">
+            <button class="iconButton dropdown-iconBtn small" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fal fa-users-class"></i>
+            </button>Create Team
+          </a>
+        </li>
+         <li>
+          <a class="dropdown-item p-1" href="../locations/create-locations.html">
+            <button class="iconButton dropdown-iconBtn small">
+              <i class="fal fa-map-marker-alt"></i>
+            </button>Create Location
+          </a>
+        </li>
+         <li>
+          <a class="dropdown-item p-1" href="../locations/create-access-point.html">
+            <button class="iconButton dropdown-iconBtn small">
+              <i class="fal fa-badge-check"></i>
+            </button>Create Access Point
+          </a>
+        </li>
+       
+
+      </ul>
+    </div>
+    <div class="dropdown custom-dropdown-list w-auto notify me-3">
+      <a href="#" class="d-block" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="iconButton medium notification iconHover">
+          <i class="fal fa-bell notify-count"></i>
+          <span class="badge bg-danger rounded-pill">5</span>
+        </button>
+      </a>
+      <ul class="dropdown-menu full_dropdown p-0 text-small user-profile-dropdown shadow" aria-labelledby="dropdownUser1">
+        <li class="notification-header dropdown-header p-0">
+          <ul class="notification-header w-100 p-2">
+            <li>
+              <div class="name-n-info">
+                <h6 class="night m-0">Notifications</h6>
+              </div>
+              <a class="pb-1 pe-2 ps-2 pt-1 rounded-pill sky" href="#">Mark all as Read</a>
+            </li>
+          </ul>
+        </li>
+        <li class="notification-body dropdown-body">
+          <ul>
+            <li>Today</li>
+            <li>
+              <a class="dropdown-item active" href="#">
+                <span class="btn iconButton iconHover medium oceanBg me-1">
+                  <i class="fal fa-bell"></i>
+                </span>
+                <div class="ms-2 me-auto coal lh-1">
+                  <div class="night">Your average response time is low.</div>
+                  <small>11:30 AM</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <span class="btn iconButton iconHover medium oceanBg me-1">
+                  <i class="fal fa-bell"></i>
+                </span>
+                <div class="ms-2 me-auto coal lh-1">
+                  <div class="night">Your average response time is low.</div>
+                  <small>11:30 AM</small>
+                </div>
+              </a>
+            </li>
+            <li>Yesterday</li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <span class="btn iconButton iconHover medium oceanBg me-1">
+                  <i class="fal fa-bell"></i>
+                </span>
+                <div class="ms-2 me-auto coal lh-1">
+                  <div class="night">Your average response time is low.</div>
+                  <small>11:30 AM</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <span class="btn iconButton iconHover medium oceanBg me-1">
+                  <i class="fal fa-bell"></i>
+                </span>
+                <div class="ms-2 me-auto coal lh-1">
+                  <div class="night">Your average response time is low.</div>
+                  <small>11:30 AM</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <span class="btn iconButton iconHover medium oceanBg me-1">
+                  <i class="fal fa-bell"></i>
+                </span>
+                <div class="ms-2 me-auto coal lh-1">
+                  <div class="night">Your average response time is low.</div>
+                  <small>11:30 AM</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="notification-footer dropdown-footer p-0">
+          <ul class="card-footer w-100 border-0 p-0">
+            <li>
+              <div class="w-100">
+                <a href="#" class="btn text-center d-block sky notification-view-all-btn">View all</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="dropdown custom-dropdown-list w-auto">
+      <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="../images/avatar-2.jpg" alt="mdo" width="40" height="40" class="rounded-circle">
+        <span class="online-n-offline"></span>
+        <div class="name-n-info">
+          <span class="name">Syed Salman Khan</span>
+          <small>@salmankhan</small>
+        </div>
+      </a>
+      <ul class="dropdown-menu full_dropdown p-0 text-small user-profile-dropdown shadow" aria-labelledby="dropdownUser1">
+        <li class="user-dropdown-header dropdown-header">
+          <ul>
+            <li>
+              <a href="#" class="link-dark text-decoration-none" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" class="profile-pic rounded-circle" alt="mdo" width="50" height="50" class="rounded-circle">
+                <span class="online-n-offline on-off-btn"></span>
+                <div class="name-n-info lh-sm">
+                  <h6 class="night m-0">Syed Salman Khan</h6>
+                  <small>@salmankhan</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <button class="iconButton medium iconHover">
+            <i class="fal fa-cog"></i>
+          </button>
+        </li>
+        
+        <li class="card-footer dropdown-footer p-2">
+          <ul class="w-100">
+            <li>
+              <div class="w-100">
+                <a href="#" class="btn radicalBg text-center d-block">Sign Out</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </header>
+
+        <div class="content-box-wrapper d-flex w-100">
+          <div class="middle-content d-flex">
+            
+            <div class="page-content-wrapper dashboard">
+                <div class="w-auto w-100 inbox-container chat-message-component">
+                    <div class="d-flex main-body-wrapper">
+                        <div class="agent-page-main-content">
+                            <div class="query-container console-body-wrapper form-body-wrap perfect-scrollbar" data-scrollbar="data-scrollbar">
+                                <div class="row justify-content-center align-items-baseline pt-5 w90 m-auto">
+                                    <div class="col-lg-4">
+                                        <div class="team-detail-form-box">
+                                            <form class="user-detail-form">
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input class="form-control" id="user-employee-id2" placeholder="">
+                                                        <label for="user-employee-id2">Employee ID<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input type="password" class="form-control" id="user-password" placeholder="">
+                                                        <label for="user-password">Password<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="User Type">
+                                                        <option selected>Select User Type</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">User Type <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Status">
+                                                        <option selected>Select Status</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Status <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Compaign">
+                                                        <option selected>Select Compaign</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Compaign <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Designation">
+                                                        <option selected>Select Designation</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Designation <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="team-detail-form-box">
+                                            <form class="user-detail-form">
+                                                 <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input class="form-control" id="full-name" placeholder="Maria Axhar" value="Maria Axhar">
+                                                        <label for="full-name">Full Name<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input type="number" class="form-control" id="user-mobile" placeholder="Mobile" value="Mobile">
+                                                        <label for="user-mobile">Mobile<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Location">
+                                                        <option selected>Select Location</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Location <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Department">
+                                                        <option selected>Select Department</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Department <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Compaign">
+                                                        <option selected>Select Compaign</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Compaign <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Designation">
+                                                        <option selected>Select Designation</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Designation <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="team-detail-form-box">
+                                            <form class="user-detail-form">
+                                                 <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input class="form-control" id="user-name" placeholder="Maria" value="Maria">
+                                                        <label for="user-name">User Name<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input type="email" class="form-control" id="user-email" placeholder="abc@gmail.com" value="abc@gmail.com">
+                                                        <label for="user-email">Email<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Team">
+                                                        <option selected>Select Team</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Team <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Sub Team">
+                                                        <option selected>Select Sub Team</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Sub Team <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Office Status">
+                                                        <option selected>Select Office Status</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Office Status <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Standard Shift Hours">
+                                                        <option selected>Select Standard Shift Hours</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Standard Shift Hours <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center align-items-baseline w90 m-auto">
+                                    <div class="col-lg-12">
+                                        <div class="team-detail-form-box">
+                                            <form class="user-detail-form">
+                                                <div class="mb-4">
+                                                    
+                                                    <input class="form-control custom-choose-file" type="file" id="formFile">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center align-items-baseline w90 m-auto">
+                                    <div class="col-lg-4">
+                                        <div class="team-detail-form-box">
+                                            <form class="user-detail-form">
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input class="form-control" id="user-rfid" placeholder="">
+                                                        <label for="user-rfid">RFID<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input type="number" class="form-control" id="user-employee-id2" placeholder="">
+                                                        <label for="user-employee-id2">Employee ID<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Source Machine">
+                                                        <option selected>Select Source Machine</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Source Machine <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="IP Restriction">
+                                                        <option selected>Select IP Restriction</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">IP Restriction <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="team-detail-form-box">
+                                            <form class="user-detail-form">
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Manage Schedule Access">
+                                                        <option selected>Select Manage Schedule Access</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Manage Schedule Access <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Entity">
+                                                        <option selected>Select Entity</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Entity <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input class="form-control" id="user-reportto" placeholder="">
+                                                        <label for="user-reportto">Report To<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input class="form-control" id="user-employee-id3" placeholder="">
+                                                        <label for="user-employee-id3">Employee ID<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="team-detail-form-box">
+                                            <form class="user-detail-form">
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Mobile Access">
+                                                        <option selected>Select Mobile Access</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Mobile Access <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Extenal Aceess">
+                                                        <option selected>Select Extenal Aceess</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Extenal Aceess <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                                <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                        <input class="form-control" id="user-employee-id4" placeholder="">
+                                                        <label for="user-employee-id4">Employee ID<sup class="text-danger">*</sup></label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-floating mb-4">
+                                                    <select class="form-select" id="floatingSelect" aria-label="Internal Access">
+                                                        <option selected>Select Internal Access</option>
+                                                        <option value="1">Option 1</option>
+                                                        <option value="2">Option 2</option>
+                                                    </select>
+                                                    <label for="floatingSelect">Internal Access <sup class="text-danger">*</sup>
+                                                    </label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                
+                
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="../scripts/main-52a10a4c52.js"></script>
+  
+</body>
+
+</html>

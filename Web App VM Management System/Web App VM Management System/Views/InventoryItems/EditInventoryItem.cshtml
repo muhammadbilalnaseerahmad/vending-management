@@ -1,0 +1,444 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Web_App_VM_Management_System.Entities;
+
+@model InventoryItem;
+<main>
+    <div class="main-wrapper d-flex">
+
+        <nav id="left-sidebar-expand" class="toggled">
+            <div class="multiple-screens">
+
+                <div class="left-nodata" style="display: none;">
+                    <div class="left-inner">
+                        <img src="../images/nodata.svg">
+                        <p>No Record Found</p>
+                    </div>
+
+                </div>
+            </div>
+            <a href="javascript:void;" class="panelToggle"></a>
+        </nav>
+
+        <div class="middle-wrapper d-flex w-100 flex-column">
+
+            <header class="main-header shadow-sm agent-header">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="dashboard-header-left d-flex align-items-center">
+
+                            @* <button class="iconButton medium">
+                            </button>*@
+
+                            <nav>
+                                <ol class="breadcrumb m-0">
+
+
+                                    @*   <li class="breadcrumb-item">
+                                    <a href="/InventoryItems/InventoryItemsList">Inventory anagement</a>
+                                    <i class="fas fa-angle-double-right"></i>
+
+                                    </li>*@
+
+
+
+                                    <li class="text-bold">
+                                        <a href="#">Edit Inventory Item</a>
+                                    </li>
+
+
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="right-header-components">
+
+                            <div class="dropdown create-button me-3">
+                                <button class="iconButton medium notification iconHover custom-fa-col" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fal fa-plus"></i>
+                                </button>
+                                <ul class="dropdown-menu custom-dropdown" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item p-1 active" href="../engage/createdevice.html">
+                                            <button class="iconButton dropdown-iconBtn small active" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fal fa-desktop"></i>
+                                            </button>Create Device
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item p-1" href="../users/create-user.html">
+                                            <button class="iconButton dropdown-iconBtn small"><i class="fal fa-users"></i></button>
+                                            Create User
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item p-1" href="../users/create-team.html">
+                                            <button class="iconButton dropdown-iconBtn small" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fal fa-users-class"></i>
+                                            </button>Create Team
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item p-1" href="../locations/create-locations.html">
+                                            <button class="iconButton dropdown-iconBtn small">
+                                                <i class="fal fa-map-marker-alt"></i>
+                                            </button>Create Location
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item p-1" href="../locations/create-access-point.html">
+                                            <button class="iconButton dropdown-iconBtn small">
+                                                <i class="fal fa-badge-check"></i>
+                                            </button>Create Access Point
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="dropdown custom-dropdown-list w-auto notify me-3">
+                                <a href="#" class="d-block" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="iconButton medium notification iconHover">
+                                        <i class="fal fa-bell notify-count"></i>
+                                        <span class="badge bg-danger rounded-pill">5</span>
+                                    </button>
+                                </a>
+                                <ul class="dropdown-menu full_dropdown p-0 text-small user-profile-dropdown shadow" aria-labelledby="dropdownUser1">
+                                    <li class="notification-header dropdown-header p-0">
+                                        <ul class="notification-header w-100 p-2">
+                                            <li>
+                                                <div class="name-n-info">
+                                                    <h6 class="night m-0">Notifications</h6>
+                                                </div>
+                                                <a class="pb-1 pe-2 ps-2 pt-1 rounded-pill sky" href="#">Mark all as Read</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="notification-body dropdown-body">
+                                        <ul>
+                                            <li>Today</li>
+                                            <li>
+                                                <a class="dropdown-item active" href="#">
+                                                    <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                        <i class="fal fa-bell"></i>
+                                                    </span>
+                                                    <div class="ms-2 me-auto coal lh-1">
+                                                        <div class="night">Your average response time is low.</div>
+                                                        <small>11:30 AM</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                        <i class="fal fa-bell"></i>
+                                                    </span>
+                                                    <div class="ms-2 me-auto coal lh-1">
+                                                        <div class="night">Your average response time is low.</div>
+                                                        <small>11:30 AM</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>Yesterday</li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                        <i class="fal fa-bell"></i>
+                                                    </span>
+                                                    <div class="ms-2 me-auto coal lh-1">
+                                                        <div class="night">Your average response time is low.</div>
+                                                        <small>11:30 AM</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                        <i class="fal fa-bell"></i>
+                                                    </span>
+                                                    <div class="ms-2 me-auto coal lh-1">
+                                                        <div class="night">Your average response time is low.</div>
+                                                        <small>11:30 AM</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#">
+                                                    <span class="btn iconButton iconHover medium oceanBg me-1">
+                                                        <i class="fal fa-bell"></i>
+                                                    </span>
+                                                    <div class="ms-2 me-auto coal lh-1">
+                                                        <div class="night">Your average response time is low.</div>
+                                                        <small>11:30 AM</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="notification-footer dropdown-footer p-0">
+                                        <ul class="card-footer w-100 border-0 p-0">
+                                            <li>
+                                                <div class="w-100">
+                                                    <a href="#" class="btn text-center d-block sky notification-view-all-btn">View all</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown custom-dropdown-list w-auto">
+                                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="../images/avatar-2.jpg" alt="mdo" width="40" height="40" class="rounded-circle">
+                                    <span class="online-n-offline"></span>
+                                    <div class="name-n-info">
+                                        <span class="name">Syed Salman Khan</span>
+                                        <small>@@salmankhan</small>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu full_dropdown p-0 text-small user-profile-dropdown shadow" aria-labelledby="dropdownUser1">
+                                    <li class="user-dropdown-header dropdown-header">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="link-dark text-decoration-none" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <img src="https://github.com/mdo.png" class="profile-pic rounded-circle" alt="mdo" width="50" height="50">
+                                                    <span class="online-n-offline on-off-btn"></span>
+                                                    <div class="name-n-info lh-sm">
+                                                        <h6 class="night m-0">Syed Salman Khan</h6>
+                                                        <small>@@salmankhan</small>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <button class="iconButton medium iconHover">
+                                            <i class="fal fa-cog"></i>
+                                        </button>
+                                    </li>
+
+                                    <li class="card-footer dropdown-footer p-2">
+                                        <ul class="w-100">
+                                            <li>
+                                                <div class="w-100">
+                                                    <a href="#" class="btn radicalBg text-center d-block">Sign Out</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </header>
+
+            <div class="content-box-wrapper d-flex w-100">
+                <div class="middle-content d-flex">
+
+
+                    <div class="agent-page-main-content">
+                        <div class="create-user console-body-wrapper perfect-scrollbar" data-scrollbar="true" tabindex="-1" style="overflow: hidden; outline: none;">
+                            <div class="scroll-content">
+                                <div class="scroll-content">
+                                    <div class="wider-container pt-5">
+                                        <div class="pb-5 mb-5">
+                                            <form id="addProduct" method="post" action="/InventoryItems/EditInventoryItem" class="user-detail-form" enctype="multipart/form-data">
+                                                
+                                                <h6>Create Inventory Item</h6>
+                                                <input name="Id" value="@Model.Id" hidden />
+                                                <div class="border mb-4"></div>
+                                                <div class="row align-items-start">
+                                                    <div class="col-6">
+                                                        <div class="floating-item mb-4">
+                                                            <div class="form-floating mb-2">
+                                                                <input required type="text" value="@Model.Name" class="form-control" id="name" placeholder="Employee Name" name="Name">
+                                                                <label for="name">
+                                                                    Name<sup class="radical">*</sup>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="floating-item mb-4">
+                                                            <div class="form-floating mb-2">
+                                                                <input required class="form-control" value="@Model.Description" id="name" placeholder="Device Name" name="Description">
+                                                                <label for="name">
+                                                                    Description<sup class="radical">*</sup>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6">
+                                                        <div class="floating-item mb-4">
+                                                            <div class="form-floating mb-2">
+                                                                <input required type="number" value="@Model.Price" class="form-control" id="name" placeholder="Device Name" name="Price">
+                                                                <label for="name">
+                                                                    Price($)<sup class="radical">*</sup>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="floating-item mb-4">
+                                                            <div class="form-floating mb-2">
+                                                                <input required type="number" value="@Model.QuantityInStock" class="form-control" id="machineno" placeholder="Machine Number" name="QuantityInStock">
+                                                                <label for="machineno">
+                                                                    Quantity_In_Stock<sup class="radical">*</sup>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="floating-item mb-4">
+                                                            <div class="form-floating mb-2">
+                                                                <input required type="number" value="@Model.Weight" class="form-control" id="machineno" placeholder="Machine Number" name="Weight">
+                                                                <label for="machineno">
+                                                                    Weight(g)<sup class="radical">*</sup>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    @*<div class="col-6">
+                                                    <div class="floating-item mb-4">
+                                                    <div class="form-floating mb-2">
+                                                    <select required class="form-control" id="itemCategory" name="ItemCatagoryId">
+                                                    <option value="" selected disabled>Select</option>
+                                                    @foreach (var opt in ViewBag.catagories)
+                                                    {
+                                                    <option value="@opt.Id">@opt.Name</option>
+                                                    }
+                                                    <!-- Add more options as needed -->
+                                                    </select>
+                                                    <label for="itemCategory">
+                                                    Item Category<sup class="radical">*</sup>
+                                                    </label>
+                                                    </div>
+                                                    </div>
+                                                    </div>*@
+                                                    @*<div class="col-6">
+                                                    <select class="form-select multi-select p-3" aria-label="Floating label select" name="Catagoryid">
+                                                    <option selected="" disabled="">Select Category</option>
+                                                    <option value="1">Electonics</option>
+
+                                                    </select>
+                                                    </div>*@
+                                                </div>
+                                                <footer class="footer">
+                                                    <div class="ps-3 pe-3">
+                                                        <div class="icon-buttons-wrapper d-flex justify-content-between pt-3 pb-4">
+                                                            <div class="row w-100">
+                                                                <div class="col-md-4">
+                                                                </div>
+                                                                <div class="col-md-8 justify-content-end d-flex">
+                                                                    <div class="buttons-wrap d-flex">
+                                                                        <button type="button" class="btn btn-outline-secondary btn-medium me-2 px-4" data-bs-toggle="modal" data-bs-target="#cancel-changes">Cancel  </button>
+                                                                        <button type="button" class="btn btn-success ms-e f-saveBtn btn-large d-none"></button>
+                                                                        <button type="submit" class="btn skyBg ms-2 px-4 btn-medium saveBtn">Save</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </footer>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div><div class="scrollbar-track scrollbar-track-x" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1553px; transform: translate3d(0px, 0px, 0px);"></div></div><div class="scrollbar-track scrollbar-track-y" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 129.96px; transform: translate3d(0px, 0px, 0px);"></div></div>
+                            </div><div class="scrollbar-track scrollbar-track-x" style="display: none;"><div class="scrollbar-thumb scrollbar-thumb-x" style="width: 1553px; transform: translate3d(0px, 0px, 0px);"></div></div><div class="scrollbar-track scrollbar-track-y" style="display: block;"><div class="scrollbar-thumb scrollbar-thumb-y" style="height: 129.96px; transform: translate3d(0px, 0px, 0px);"></div></div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal fade" id="cancel-changes" tabindex="-1" aria-labelledby="cancel-changes-Label" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title line-head" id="cancel-changes-Label">Confirm</h5>
+                                    <button type="button" class="btn iconHover pt-0 pb-0" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-times"></i></button>
+                                </div>
+                                <div class="modal-body p-5">
+                                    <div class="d-flex align-items-center">
+                                        <div class="icon-circle iconButton me-4 errorbg">
+                                            <i class="fal fa-times"></i>
+                                        </div>
+                                        <p class="line-txt darkblue">Are you sure, you want to cancel the changes?</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <button id="submitForm" type="button" class="btn btn-danger modal_cancel-device" data-bs-dismiss="modal">Yes</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal fade" id="edit-device" tabindex="-1" aria-labelledby="saveModalLabel" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title line-head" id="saveModalLabel">Confirm</h5>
+                                    <button type="button" class="btn iconHover pt-0 pb-0" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-times"></i></button>
+                                </div>
+                                <div class="modal-body p-5">
+                                    <div class="d-flex align-items-center">
+                                        <div class="icon-circle iconButton me-4">
+                                            <i class="fal fa-clipboard-check"></i>
+                                        </div>
+                                        <p class="line-txt darkblue">Are you sure, you want to save changes?</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <a type="button" href="/Product/AddProduct" class="btn skyBg modal_device-save" data-bs-dismiss="modal">Yes</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="position-fixed toast-bar border-0 shadow-sm rounded navyBg" style="z-index: 60">
+                        <div class="toast hide border-0 p-2 h-100 navyBg" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="d-flex border-0 justify-content-between align-items-center w-100 h-100">
+                                <p class="toast-line-para ice m-0"></p>
+                                <div class="toast-btn d-flex align-items-center">
+
+                                    <button type="button" class="btn m-0 ms-2" data-bs-dismiss="toast"><i class="fal fa-times"></i></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="position-fixed toast-bar border-0 shadow-sm rounded navyBg" style="z-index: 60">
+        <div class="toast hide border-0 p-2 h-100 navyBg" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex border-0 justify-content-between align-items-center w-100 h-100">
+                <p class="toast-line-para ice m-0"<a href="d:\asp.net projects\web app vm management system\web app vm management system\web app vm management system\views\employee\addemployee.cshtml">d:\asp.net projects\web app vm management system\web app vm management system\web app vm management system\views\employee\addemployee.cshtml</a>></p>
+                <div class="toast-btn d-flex align-items-center">
+
+                    <button type="button" class="btn m-0 ms-2" data-bs-dismiss="toast"><i class="fal fa-times"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

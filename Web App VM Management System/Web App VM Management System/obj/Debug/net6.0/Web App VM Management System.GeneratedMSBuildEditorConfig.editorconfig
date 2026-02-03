@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web_App_VM_Management_System
+build_property.RootNamespace = Web_App_VM_Management_System
+build_property.ProjectDir = D:\My Projects\Web App VM Management System\Web App VM Management System\Web App VM Management System\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\My Projects\Web App VM Management System\Web App VM Management System\Web App VM Management System
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Category/CategoriesList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcmllc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Category/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Employee/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Employee/EditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Employee/EmployeesList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItemCategory/AddItemCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbUNhdGVnb3J5XEFkZEl0ZW1DYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItemCategory/ItemCategoriesList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbUNhdGVnb3J5XEl0ZW1DYXRlZ29yaWVzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/AddInventoryItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcQWRkSW52ZW50b3J5SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/EditInventoryItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcRWRpdEludmVudG9yeUl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/InventoryItems/InventoryItemsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcSW52ZW50b3J5SXRlbXNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/ProductGrid/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEdyaWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Product/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Product/ProductsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0c0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Revenue/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Sales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/VendItem/AddVendItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZEl0ZW1cQWRkVmVuZEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/VendItem/VendItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZEl0ZW1cVmVuZEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/Web App VM Management System/Web App VM Management System/Web App VM Management System/Views/VendItem/VendItemList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZEl0ZW1cVmVuZEl0ZW1MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

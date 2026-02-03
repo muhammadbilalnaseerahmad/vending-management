@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title></title>
+</head>
+
+<body>
+    <style>
+       ul li a{
+           color:grey
+        }
+          ul li a:hover{
+            color:green
+         }
+    </style>
+    <style>
+        .card-header {
+            background-color: white;
+        }
+
+        .copy {
+            font-size: 12px;
+            padding: 10px;
+            border-top: 1px solid #FFFFFF;
+        }
+
+        .footer-middle {
+            padding-top: 2em;
+            color: white;
+        }
+        /*SOCİAL İCONS*/
+
+        /* footer social icons */
+
+        ul.social-network {
+            list-style: none;
+            display: inline;
+            margin-left: 0 !important;
+            padding: 0;
+        }
+
+            ul.social-network li {
+                display: inline;
+                margin: 0 5px;
+            }
+
+
+        /* footer social icons */
+
+        .social-network a.icoFacebook:hover {
+            background-color: #3B5998;
+        }
+
+        .social-network a.icoLinkedin:hover {
+            background-color: #007bb7;
+        }
+
+            .social-network a.icoFacebook:hover i,
+            .social-network a.icoLinkedin:hover i {
+                color: #fff;
+            }
+
+        .social-network a.socialIcon:hover,
+        .socialHoverClass {
+            color: #44BCDD;
+        }
+
+        .social-circle li a {
+            display: inline-block;
+            position: relative;
+            margin: 0 auto 0 auto;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            font-size: 15px;
+        }
+
+        ul li a {
+            color: grey
+        }
+
+            ul li a:hover {
+                color: green
+            }
+
+        .social-circle li i {
+            margin: 0;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .social-circle li a:hover i,
+        .triggeredHover {
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -ms--transform: rotate(360deg);
+            transform: rotate(360deg);
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            -ms-transition: all 0.2s;
+            transition: all 0.2s;
+        }
+
+        .social-circle i {
+            color: #595959;
+            -webkit-transition: all 0.8s;
+            -moz-transition: all 0.8s;
+            -o-transition: all 0.8s;
+            -ms-transition: all 0.8s;
+            transition: all 0.8s;
+        }
+
+        .social-network a {
+            background-color: #F9F9F9;
+        }
+
+        .jumbotron {
+            background-repeat: no-repeat;
+            background-image: linear-gradient(to right, red, yellow);
+            background-size: contain;
+            background-position: right;
+            background-color: white;
+            ;
+            border-radius: 0 !important;
+        }
+
+        #bg-img {
+            background-image: url('https://img.freepik.com/free-vector/cartoon-vending-machines-collection_52683-73163.jpg?w=996&t=st=1692691656~exp=1692692256~hmac=708a8db0391f6bdd82d8dd43a472b7be15cc2ee881882c8ababd8e81f47c1def');
+        }
+
+        .detail-key {
+            color: black; /* Blue color for keys */
+            font-weight: bold;
+        }
+
+        .detail-value {
+            color: #28a745; /* Green color for values */
+        }
+
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .v-machine {
+            width: 50%;
+        }
+
+        .inventory {
+            width: 108%;
+        }
+
+        .salary {
+            border-right: 1px solid lightgrey
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+
+        .padding {
+            padding: 5rem
+        }
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+        }
+
+        .test {
+            border: 1px solid #d2d2dc;
+            border-radius: 11px;
+            -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(212,182,212,1);
+            box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+        }
+
+        .card .card-body {
+            padding: 1rem 1rem;
+        }
+
+        .card-body {
+            flex: 1 1 auto;
+            padding: 1.25rem
+        }
+
+        p {
+            font-size: 0.875rem;
+            margin-bottom: .5rem;
+            line-height: 1.5rem
+        }
+
+        h4 {
+            line-height: .2 !important;
+        }
+
+        .profile {
+            margin-top: 16px;
+            margin-left: 11px;
+        }
+
+        .profile-pic {
+            width: 58px;
+        }
+
+        .cust-name {
+            font-size: 18px;
+        }
+
+        .cust-profession {
+            font-size: 10px;
+        }
+
+
+
+        .items {
+            width: 90%;
+            margin: 0px auto;
+            margin-top: 100px;
+        }
+
+        .bg-black {
+            background-color: black;
+        }
+
+        .slick-slide {
+            margin: 10px
+        }
+
+        .logo {
+            margin: auto;
+            width: 90px;
+            display: flex;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light mt-1">
+        <img src="https://img.freepik.com/premium-vector/healthy-vending-machines-food-logo-template_7109-708.jpg?w=2000" class="logo mr-3" />
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="@Url.Action("Index", "Home")" class="nav-link text-dark">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="@Url.Action("Index", "ProductGrid")" class="nav-link text-dark">Catalog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="@Url.Action("Index", "Contact")" class="nav-link text-dark">Contact us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            @if (User.Identity.IsAuthenticated)
+            {
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="ml-3">
+                        <a href="@Url.Action("Index", "Admin")" class="text-black btn btn-success">Dashboard</a>
+
+                        @Html.ActionLink("LogOut", "Logout", "Account", null, new { @class = "btn btn-primary" })
+                    </div>
+                }
+                else
+                {
+                    <div class="ml-3">
+                        <a href="@Url.Action("Index", "Employee")" class="text-black btn btn-success">Dashboard</a>
+
+                        @Html.ActionLink("LogOut", "Logout", "Account", null, new { @class = "btn btn-primary" })
+                    </div>
+                }
+            }
+            else
+            {
+                @*@Html.ActionLink("Register", "Register", "Account", null, new { @class = "btn btn-success ml-2" })*@
+                @Html.ActionLink("Login", "Login", "Account", null, new { @class = "btn btn-primary ml-2" })
+            }
+        </div>
+    </nav>
+    <div id="header"></div>
+    <h3 class="text-center mt-5 pt-5 text-decoration-underline">Vending Machines</h3>
+    <div class="container mt-5">
+
+        <div class="card-deck bg-light">
+            <div class="row bg-white">
+
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top w-75" src="https://vended.ca/cdn/shop/products/Wide2.png?v=1679784233" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Snack-o-Matic</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div id="accordion">
+                            <div class="card border-0">
+                                <div id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Detail
+                                        </button>
+                                    </h5>
+                                </div>
+                                <hr>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>
+                                            <span class="detail-key">Vending Machine Name:</span> <span class="detail-value">Snack-o-Matic</span><br>
+                                            <span class="detail-key">Location:</span> <span class="detail-value">Building A, 1st Floor, Lobby</span><br>
+                                            <span class="detail-key">Product Categories:</span> <span class="detail-value">Snacks, Beverages, Candy</span><br>
+                                            <span class="detail-key">Product Selection:</span> <span class="detail-value">Potato Chips, Chocolate Bars, Soda Cans</span><br>
+                                            <span class="detail-key">Availability:</span> <span class="detail-value">24/7</span><br>
+                                            <span class="detail-key">Payment Options:</span> <span class="detail-value">Coins, Bills, Credit Cards</span><br>
+                                            <span class="detail-key">Inventory Status:</span> <span class="detail-value">In Stock</span><br>
+                                            <span class="detail-key">Maintenance Schedule:</span> <span class="detail-value">Weekly (Every Monday)</span><br>
+                                            <span class="detail-key">Contact Information:</span> <span class="detail-value">support@snackomatic.com</span><br>
+                                            <strong>User Reviews:</strong><br>
+                                            - "<span class="detail-value">Love the variety of snacks available!</span>" - John Doe<br>
+                                            - "<span class="detail-value">Convenient and easy to use.</span>" - Jane Smith
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top w-75" src="https://vended.ca/cdn/shop/products/Wide2.png?v=1679784233" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Snack-o-Matic</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div id="accordion">
+                            <div class="card border-0">
+                                <div id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-success" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            Detail
+                                        </button>
+                                    </h5>
+                                </div>
+                                <hr>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>
+                                            <span class="detail-key">Vending Machine Name:</span> <span class="detail-value">Snack-o-Matic</span><br>
+                                            <span class="detail-key">Location:</span> <span class="detail-value">Building A, 1st Floor, Lobby</span><br>
+                                            <span class="detail-key">Product Categories:</span> <span class="detail-value">Snacks, Beverages, Candy</span><br>
+                                            <span class="detail-key">Product Selection:</span> <span class="detail-value">Potato Chips, Chocolate Bars, Soda Cans</span><br>
+                                            <span class="detail-key">Availability:</span> <span class="detail-value">24/7</span><br>
+                                            <span class="detail-key">Payment Options:</span> <span class="detail-value">Coins, Bills, Credit Cards</span><br>
+                                            <span class="detail-key">Inventory Status:</span> <span class="detail-value">In Stock</span><br>
+                                            <span class="detail-key">Maintenance Schedule:</span> <span class="detail-value">Weekly (Every Monday)</span><br>
+                                            <span class="detail-key">Contact Information:</span> <span class="detail-value">support@snackomatic.com</span><br>
+                                            <strong>User Reviews:</strong><br>
+                                            - "<span class="detail-value">Love the variety of snacks available!</span>" - John Doe<br>
+                                            - "<span class="detail-value">Convenient and easy to use.</span>" - Jane Smith
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <img class="card-img-top w-75" src="https://vended.ca/cdn/shop/products/Wide2.png?v=1679784233" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Snack-o-Matic</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div id="accordion">
+                            <div class="card border-0">
+                                <div id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-success" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                            Detail
+                                        </button>
+                                    </h5>
+                                </div>
+                                <hr>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>
+                                            <span class="detail-key">Vending Machine Name:</span> <span class="detail-value">Snack-o-Matic</span><br>
+                                            <span class="detail-key">Location:</span> <span class="detail-value">Building A, 1st Floor, Lobby</span><br>
+                                            <span class="detail-key">Product Categories:</span> <span class="detail-value">Snacks, Beverages, Candy</span><br>
+                                            <span class="detail-key">Product Selection:</span> <span class="detail-value">Potato Chips, Chocolate Bars, Soda Cans</span><br>
+                                            <span class="detail-key">Availability:</span> <span class="detail-value">24/7</span><br>
+                                            <span class="detail-key">Payment Options:</span> <span class="detail-value">Coins, Bills, Credit Cards</span><br>
+                                            <span class="detail-key">Inventory Status:</span> <span class="detail-value">In Stock</span><br>
+                                            <span class="detail-key">Maintenance Schedule:</span> <span class="detail-value">Weekly (Every Monday)</span><br>
+                                            <span class="detail-key">Contact Information:</span> <span class="detail-value">support@snackomatic.com</span><br>
+                                            <strong>User Reviews:</strong><br>
+                                            - "<span class="detail-value">Love the variety of snacks available!</span>" - John Doe<br>
+                                            - "<span class="detail-value">Convenient and easy to use.</span>" - Jane Smith
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <small class="text-center text-secondary p-4 text-center d-block mt-3">&copy; Copyright 2018 - Company Name.  All rights reserved.</small>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+      <script>
+    // Function to include header and footer using JavaScript
+    function includeHeaderAndFooter() {
+      fetch('header.html')
+        .then(response => response.text())
+        .then(content => document.getElementById('header').innerHTML = content);
+
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(content => document.getElementById('footer').innerHTML = content);
+    }
+
+    // Call the function to include the header and footer
+    includeHeaderAndFooter();
+</script>
+
+
+</body>

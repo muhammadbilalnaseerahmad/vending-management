@@ -1,0 +1,993 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\Uploads\\Screenshot 2023-10-16 102532.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-10-16 102532.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\Uploads\\WhatsApp Image 2023-09-18 at 6.55.23 PM.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\WhatsApp Image 2023-09-18 at 6.55.23 PM.jpeg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\Uploads\\image_2023_09_15T09_15_46_355Z.png",
+      "PackagePath": "staticwebassets\\Uploads\\image_2023_09_15T09_15_46_355Z.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\Uploads\\my passport.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\my passport.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\css\\styles\\main-c2cb015d74.css",
+      "PackagePath": "staticwebassets\\css\\styles\\main-c2cb015d74.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\css\\styles\\style.css",
+      "PackagePath": "staticwebassets\\css\\styles\\style.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\accessmanagement.html",
+      "PackagePath": "staticwebassets\\engage\\accessmanagement.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\accountmanagement.html",
+      "PackagePath": "staticwebassets\\engage\\accountmanagement.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\add-permissions.html",
+      "PackagePath": "staticwebassets\\engage\\add-permissions.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\add-user.html",
+      "PackagePath": "staticwebassets\\engage\\add-user.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\addcard.html",
+      "PackagePath": "staticwebassets\\engage\\addcard.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\bulk-upload.html",
+      "PackagePath": "staticwebassets\\engage\\bulk-upload.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\createaccess.html",
+      "PackagePath": "staticwebassets\\engage\\createaccess.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\createaccounts.html",
+      "PackagePath": "staticwebassets\\engage\\createaccounts.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\createcard.html",
+      "PackagePath": "staticwebassets\\engage\\createcard.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\createdevice.html",
+      "PackagePath": "staticwebassets\\engage\\createdevice.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\creategroup.html",
+      "PackagePath": "staticwebassets\\engage\\creategroup.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\device-detail.html",
+      "PackagePath": "staticwebassets\\engage\\device-detail.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\devices.html",
+      "PackagePath": "staticwebassets\\engage\\devices.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\edit-device-form.html",
+      "PackagePath": "staticwebassets\\engage\\edit-device-form.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\editgroups.html",
+      "PackagePath": "staticwebassets\\engage\\editgroups.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\groupmanagement.html",
+      "PackagePath": "staticwebassets\\engage\\groupmanagement.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\logs.html",
+      "PackagePath": "staticwebassets\\engage\\logs.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\engage\\permissions.html",
+      "PackagePath": "staticwebassets\\engage\\permissions.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\Axiforma-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Axiforma-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\Axiforma-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Axiforma-Light.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\Circular_Std_Book.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Circular_Std_Book.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\fonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images.png",
+      "PackagePath": "staticwebassets\\images.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\Browser-img.svg",
+      "PackagePath": "staticwebassets\\images\\Browser-img.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\Instagram-logo.svg",
+      "PackagePath": "staticwebassets\\images\\Instagram-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\Mask Group 7.jpg",
+      "PackagePath": "staticwebassets\\images\\Mask Group 7.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\Pop-up-img.svg",
+      "PackagePath": "staticwebassets\\images\\Pop-up-img.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\SLA.png",
+      "PackagePath": "staticwebassets\\images\\SLA.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\access-logo.svg",
+      "PackagePath": "staticwebassets\\images\\access-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\access-small-white.svg",
+      "PackagePath": "staticwebassets\\images\\access-small-white.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\access-white-logo.svg",
+      "PackagePath": "staticwebassets\\images\\access-white-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\add-response.svg",
+      "PackagePath": "staticwebassets\\images\\add-response.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\all-inboxes-logo.svg",
+      "PackagePath": "staticwebassets\\images\\all-inboxes-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\anger-icon.svg",
+      "PackagePath": "staticwebassets\\images\\anger-icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\angle-down.png",
+      "PackagePath": "staticwebassets\\images\\angle-down.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\angry.svg",
+      "PackagePath": "staticwebassets\\images\\angry.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\angry_face.svg",
+      "PackagePath": "staticwebassets\\images\\angry_face.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\arrow-circle-left-solid.svg",
+      "PackagePath": "staticwebassets\\images\\arrow-circle-left-solid.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\arrow-circle-right-solid.svg",
+      "PackagePath": "staticwebassets\\images\\arrow-circle-right-solid.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-10.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-11.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-11.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-12.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-12.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-13.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-13.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-14.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-14.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-15.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-15.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-16.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-16.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-17.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-17.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-18.png",
+      "PackagePath": "staticwebassets\\images\\avatar-18.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-19.png",
+      "PackagePath": "staticwebassets\\images\\avatar-19.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-6.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-7.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-8.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-9.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avatar-status.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-status.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\avg-response-time.png",
+      "PackagePath": "staticwebassets\\images\\avg-response-time.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\bell-img.svg",
+      "PackagePath": "staticwebassets\\images\\bell-img.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\call-logo.svg",
+      "PackagePath": "staticwebassets\\images\\call-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\case.svg",
+      "PackagePath": "staticwebassets\\images\\case.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\chat-icon.svg",
+      "PackagePath": "staticwebassets\\images\\chat-icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\chat-logo.svg",
+      "PackagePath": "staticwebassets\\images\\chat-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\chevron-circle-left.svg",
+      "PackagePath": "staticwebassets\\images\\chevron-circle-left.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\chevron-circle-right.svg",
+      "PackagePath": "staticwebassets\\images\\chevron-circle-right.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\chevron-down.svg",
+      "PackagePath": "staticwebassets\\images\\chevron-down.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\images\\chevron-left.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\images\\chevron-right.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\console-head-img.png",
+      "PackagePath": "staticwebassets\\images\\console-head-img.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\console-landing.svg",
+      "PackagePath": "staticwebassets\\images\\console-landing.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\cross.svg",
+      "PackagePath": "staticwebassets\\images\\cross.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\dialer_bg.png",
+      "PackagePath": "staticwebassets\\images\\dialer_bg.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\dot-group-2.png",
+      "PackagePath": "staticwebassets\\images\\dot-group-2.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\dot-group.png",
+      "PackagePath": "staticwebassets\\images\\dot-group.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\email-img.svg",
+      "PackagePath": "staticwebassets\\images\\email-img.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\email-logo.svg",
+      "PackagePath": "staticwebassets\\images\\email-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\empty-list-image.svg",
+      "PackagePath": "staticwebassets\\images\\empty-list-image.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\enteract-access.svg",
+      "PackagePath": "staticwebassets\\images\\enteract-access.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\enteract-full-logo.png",
+      "PackagePath": "staticwebassets\\images\\enteract-full-logo.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\enteract-full-logo.svg",
+      "PackagePath": "staticwebassets\\images\\enteract-full-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\enteract-logo.svg",
+      "PackagePath": "staticwebassets\\images\\enteract-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\facebook-logo.svg",
+      "PackagePath": "staticwebassets\\images\\facebook-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\fair-icon.svg",
+      "PackagePath": "staticwebassets\\images\\fair-icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\fb-logo.png",
+      "PackagePath": "staticwebassets\\images\\fb-logo.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\food.png",
+      "PackagePath": "staticwebassets\\images\\food.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\foodpanda-logo.png",
+      "PackagePath": "staticwebassets\\images\\foodpanda-logo.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\foodpanda-logo.svg",
+      "PackagePath": "staticwebassets\\images\\foodpanda-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\forward-icon.svg",
+      "PackagePath": "staticwebassets\\images\\forward-icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\forward.svg",
+      "PackagePath": "staticwebassets\\images\\forward.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\front-page-graphic.png",
+      "PackagePath": "staticwebassets\\images\\front-page-graphic.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\g1061.png",
+      "PackagePath": "staticwebassets\\images\\g1061.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\g1061@2x.png",
+      "PackagePath": "staticwebassets\\images\\g1061@2x.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\graphic2x.png",
+      "PackagePath": "staticwebassets\\images\\graphic2x.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\graphic2x.svg",
+      "PackagePath": "staticwebassets\\images\\graphic2x.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\haha-emoji.svg",
+      "PackagePath": "staticwebassets\\images\\haha-emoji.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\haha_emoji.svg",
+      "PackagePath": "staticwebassets\\images\\haha_emoji.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\happy.svg",
+      "PackagePath": "staticwebassets\\images\\happy.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\ibex-enteract-engage.svg",
+      "PackagePath": "staticwebassets\\images\\ibex-enteract-engage.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\ibex-logo.svg",
+      "PackagePath": "staticwebassets\\images\\ibex-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\icon-merge.svg",
+      "PackagePath": "staticwebassets\\images\\icon-merge.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\icon-split.svg",
+      "PackagePath": "staticwebassets\\images\\icon-split.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\like-svg.svg",
+      "PackagePath": "staticwebassets\\images\\like-svg.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\like_emoji.svg",
+      "PackagePath": "staticwebassets\\images\\like_emoji.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\login-image-1.svg",
+      "PackagePath": "staticwebassets\\images\\login-image-1.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\login-image-2.svg",
+      "PackagePath": "staticwebassets\\images\\login-image-2.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\love_emoji.svg",
+      "PackagePath": "staticwebassets\\images\\love_emoji.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\minus.svg",
+      "PackagePath": "staticwebassets\\images\\minus.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\neutral-icon.svg",
+      "PackagePath": "staticwebassets\\images\\neutral-icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\no-content.svg",
+      "PackagePath": "staticwebassets\\images\\no-content.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\nodata.svg",
+      "PackagePath": "staticwebassets\\images\\nodata.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\pakistanflag.svg",
+      "PackagePath": "staticwebassets\\images\\pakistanflag.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\pattern-1.jpg",
+      "PackagePath": "staticwebassets\\images\\pattern-1.jpg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\pdf-image.png",
+      "PackagePath": "staticwebassets\\images\\pdf-image.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\pdf_file.png",
+      "PackagePath": "staticwebassets\\images\\pdf_file.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\pdf_icon.png",
+      "PackagePath": "staticwebassets\\images\\pdf_icon.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\phone-incoming.svg",
+      "PackagePath": "staticwebassets\\images\\phone-incoming.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\photo-grid-icons.png",
+      "PackagePath": "staticwebassets\\images\\photo-grid-icons.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\pie-chart.png",
+      "PackagePath": "staticwebassets\\images\\pie-chart.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\plus.svg",
+      "PackagePath": "staticwebassets\\images\\plus.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\positive-icon.svg",
+      "PackagePath": "staticwebassets\\images\\positive-icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\profile_background.png",
+      "PackagePath": "staticwebassets\\images\\profile_background.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\qrcode.png",
+      "PackagePath": "staticwebassets\\images\\qrcode.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\report-24px.svg",
+      "PackagePath": "staticwebassets\\images\\report-24px.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\rich-text-editor.png",
+      "PackagePath": "staticwebassets\\images\\rich-text-editor.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\right-pane-img.png",
+      "PackagePath": "staticwebassets\\images\\right-pane-img.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\right-panel-bg.png",
+      "PackagePath": "staticwebassets\\images\\right-panel-bg.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\sad.svg",
+      "PackagePath": "staticwebassets\\images\\sad.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\sad_emoji.svg",
+      "PackagePath": "staticwebassets\\images\\sad_emoji.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\shop-icon.svg",
+      "PackagePath": "staticwebassets\\images\\shop-icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\sms-logo.svg",
+      "PackagePath": "staticwebassets\\images\\sms-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\statistic-chartbar.png",
+      "PackagePath": "staticwebassets\\images\\statistic-chartbar.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\success icon.svg",
+      "PackagePath": "staticwebassets\\images\\success icon.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\surprise.svg",
+      "PackagePath": "staticwebassets\\images\\surprise.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\svg.svg",
+      "PackagePath": "staticwebassets\\images\\svg.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\twitter-logo.svg",
+      "PackagePath": "staticwebassets\\images\\twitter-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\twitter-post-image.png",
+      "PackagePath": "staticwebassets\\images\\twitter-post-image.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\unknown.svg",
+      "PackagePath": "staticwebassets\\images\\unknown.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\vmLogo.svg",
+      "PackagePath": "staticwebassets\\images\\vmLogo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\wave.svg",
+      "PackagePath": "staticwebassets\\images\\wave.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\web-search.svg",
+      "PackagePath": "staticwebassets\\images\\web-search.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\whatsapp-logo.svg",
+      "PackagePath": "staticwebassets\\images\\whatsapp-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\wow-emoji.svg",
+      "PackagePath": "staticwebassets\\images\\wow-emoji.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\wow_emoji.svg",
+      "PackagePath": "staticwebassets\\images\\wow_emoji.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\yeogurt-swirl.png",
+      "PackagePath": "staticwebassets\\images\\yeogurt-swirl.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\youtube-image.png",
+      "PackagePath": "staticwebassets\\images\\youtube-image.png"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\images\\youtube-logo.svg",
+      "PackagePath": "staticwebassets\\images\\youtube-logo.svg"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\js\\scripts\\main-52a10a4c52.js",
+      "PackagePath": "staticwebassets\\js\\scripts\\main-52a10a4c52.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\access-points-detail.html",
+      "PackagePath": "staticwebassets\\locations\\access-points-detail.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\access-points.html",
+      "PackagePath": "staticwebassets\\locations\\access-points.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\create-access-point.html",
+      "PackagePath": "staticwebassets\\locations\\create-access-point.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\create-locations.html",
+      "PackagePath": "staticwebassets\\locations\\create-locations.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\edit-access-point.html",
+      "PackagePath": "staticwebassets\\locations\\edit-access-point.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\edit-location.html",
+      "PackagePath": "staticwebassets\\locations\\edit-location.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\index.html",
+      "PackagePath": "staticwebassets\\locations\\index.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\location-detail.html",
+      "PackagePath": "staticwebassets\\locations\\location-detail.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\locations\\location.html",
+      "PackagePath": "staticwebassets\\locations\\location.html"
+    },
+    {
+      "Id": "D:\\My Projects\\Web App VM Management System\\Web App VM Management System\\wwwroot\\vm.png",
+      "PackagePath": "staticwebassets\\vm.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Web App VM Management System.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Web App VM Management System.props",
+      "PackagePath": "build\\Web App VM Management System.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Web App VM Management System.props",
+      "PackagePath": "buildMultiTargeting\\Web App VM Management System.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Web App VM Management System.props",
+      "PackagePath": "buildTransitive\\Web App VM Management System.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

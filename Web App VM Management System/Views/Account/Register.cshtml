@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    var registrationSuccess = ViewData["RegistrationSuccess"] as bool?;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include Bootstrap JS at the end of your HTML body -->
+</head>
+
+<body class='bg-light'>
+    <div class="col-3">
+        <img src="https://img.freepik.com/premium-vector/healthy-vending-machines-food-logo-template_7109-708.jpg?w=2000" class="w-25" />
+
+    </div>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h2 class="mb-0 text-center">Sign Up</h2>
+                    </div>
+                    <div class="card-body">
+                       
+                       @* @if (registrationSuccess.HasValue)
+                        {
+                            @if (registrationSuccess.Value)
+                            {
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <strong>Registration successful!</strong> You can now log in using your credentials.
+                                    @Html.ActionLink("Login", "Login", "Account", null, new { @class = "btn btn-outline-success" })
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            }
+                        }
+*@
+                        <form method="post" action="Register">
+                            <div class="form-group">
+                                <label for="Email">Name</label>
+                                <input type="text" class="form-control" id="Name" name="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control" id="Email" name="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="PhoneNumber">Phone Number</label>
+                                <input type="text" class="form-control" id="PhoneNumber" name="PhoneNumber" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Password</label>
+                                <input type="password" class="form-control" id="Password" name="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Confirm Password</label>
+                                <input type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Role</label>
+                                <input type="text" class="form-control"  name="Role" required>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-success btn-block">Register</button>
+                            <span style="color:@ViewBag.color">@ViewBag.message</span><br />
+                            <span>Already have an account?@Html.ActionLink("Login", "Login", "Account")</span>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="mt-3">
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-outline-secondary btn-block">Go to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Close the alert message
+        $(document).ready(function () {
+            $(".alert").alert();
+        });
+    </script>
+
+</body>
+</html>

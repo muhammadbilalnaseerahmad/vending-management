@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit Employee</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h4 class="mt-3">Edit Employee</h4>
+        <hr />
+        <div class="col-md-6">
+            <form method="post" action="/Employee/EditEmployee" onsubmit="showAlert()">
+                <input type="hidden" name="Id" value="@Model.Id" />
+
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input name="Name" type="text" id="Name" class="form-control" value="@Model.Name" />
+                </div>
+                <div class="form-group">
+                    <label for="PhoneNumber">Phone Number</label>
+                    <input name="PhoneNumber" type="tel" id="PhoneNumber" class="form-control" value="@Model.PhoneNumber" />
+                </div>
+                <div class="form-group">
+                    <label for="EmailAddress">Email Address</label>
+                    <input name="EmailAddress" type="email" id="EmailAddress" class="form-control" value="@Model.EmailAddress" />
+                </div>
+                <div class="form-group">
+                    <label for="Salary">Salary</label>
+                    <input name="Salary" type="number" step="0.01" id="Salary" class="form-control" value="@Model.Salary" />
+                </div>
+                <div class="form-group">
+                    <label for="IsPaid">Salary Status</label>
+                    <select name="IsPaid" id="IsPaid" class="form-control">
+                        <option value="true" @(Model.IsPaid ? "selected" : "")>Paid</option>
+                        <option value="false" @(!Model.IsPaid ? "selected" : "")>Unpaid</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+
+        <div>
+            @Html.ActionLink("Back to List", "EmployeesList", "Employee", null, new { @class = "mt-3 btn btn-secondary" })
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
